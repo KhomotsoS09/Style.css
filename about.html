@@ -296,7 +296,7 @@
 
         .member-avatar {
             font-size: 3.2rem;
-            background: #F2E0D2;
+            background: wheat;
             width: 90px;
             height: 90px;
             display: flex;
@@ -304,7 +304,7 @@
             justify-content: center;
             border-radius: 50%;
             margin: 0 auto 1rem;
-            color: #C13B1A;
+            color: red;
         }
 
         .team-member h4 {
@@ -314,7 +314,7 @@
 
         .team-member p {
             font-size: 0.8rem;
-            color: #997F64;
+            color: burlywood;
         }
 
         /* cta banner */
@@ -334,8 +334,8 @@
         }
 
         .cta-button {
-            background: #FFB347;
-            color: #2C1D12;
+            background: peachpuff;
+            color: black;
             padding: 0.8rem 2rem;
             border-radius: 3rem;
             text-decoration: none;
@@ -348,14 +348,14 @@
         }
 
         .cta-button:hover {
-            background: #FFA01E;
+            background: orange;
             transform: scale(1.02);
         }
 
         /* footer */
         footer {
-            background: #1F160F;
-            color: #DBCEBD;
+            background: black;
+            color: white;
             padding: 2rem 1.5rem;
             text-align: center;
             margin-top: 2rem;
@@ -371,7 +371,7 @@
         }
 
         .footer-links a {
-            color: #FFD6B3;
+            color: bisque;
             text-decoration: none;
             font-size: 0.9rem;
         }
@@ -553,25 +553,5 @@
         <p style="font-size:0.7rem; margin-top:0.5rem;"> Nairobi, Kenya | hello@niknakssimbas.com</p>
     </footer>
 
-    <!-- tiny script for interactive nav highlight (optional) -->
-    <script>
-        // just for demonstration — no backend, just makes active link nice
-        const navLinks = document.querySelectorAll('.nav-links a');
-        navLinks.forEach(link => {
-            if(link.innerText.includes('About') || link.href.includes('#')) {
-                link.classList.add('active');
-            } else {
-                link.classList.remove('active');
-            }
-        });
-        // smooth scroll for CTA (optional)
-        const ctaBtn = document.querySelector('.cta-button');
-        if(ctaBtn) {
-            ctaBtn.addEventListener('click', (e) => {
-                e.preventDefault();
-                alert("📬 Thanks for your interest! Our newsletter will launch soon – stay crunchy.");
-            });
-        }
-    </script>
 </body>
 </html>
