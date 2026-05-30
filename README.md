@@ -76,8 +76,7 @@ Further Improvements:
 -	Make changes to accommodate mobile devices’ screen sizes
 
 -	Create new pages and content sections.
-
--	
+
 -	Add a backend functionality for submitting data
 
 
